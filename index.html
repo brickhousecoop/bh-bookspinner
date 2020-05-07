@@ -32,6 +32,10 @@
     .mmbook .face {
       position: absolute;
       transform-origin: 0 0;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .mmbook .face.front {
@@ -86,12 +90,12 @@
 <body>
   <div class="mmbook scene">
     <div class="case">
-      <figure class="face front"></figure>
-      <figure class="face foreedge"></figure>
-      <figure class="face back"></figure>
-      <figure class="face spine"></figure>
-      <figure class="face head"></figure>
-      <figure class="face tail"></figure>
+      <figure class="face front">FRONT</figure>
+      <figure class="face foreedge">FOREEDGE</figure>
+      <figure class="face back">BACK</figure>
+      <figure class="face spine">SPINE</figure>
+      <figure class="face head">HEAD</figure>
+      <figure class="face tail">TAIL</figure>
     </div>
   </div>
 </body>
