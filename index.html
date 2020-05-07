@@ -31,6 +31,7 @@
 
     .mmbook .face {
       position: absolute;
+      transform-origin: 0 0;
     }
 
     .mmbook .face.front {
@@ -42,10 +43,11 @@
     .mmbook .face.foreedge {
       width: var(--mmbook-thickness);
       height: var(--mmbook-height);
-      transform: rotateY(90deg) translateZ( calc(0.5 * var(--mmbook-width)) );
+      transform: rotateY(90deg) translateX(-50%) translateZ( calc( var(--mmbook-width)) );
       background-color: blue;
     }
     .mmbook .face.back {
+      transform-origin: 50% 50%; /* eliminates need for translateX(100%) */
       width: var(--mmbook-width);
       height: var(--mmbook-height);
       transform: rotateY(180deg) translateZ( calc(0.5 * var(--mmbook-thickness)) );
@@ -60,7 +62,7 @@
     .mmbook .face.head {
       width: var(--mmbook-width);
       height: var(--mmbook-thickness);
-      transform: rotateX(90deg) translateZ( calc(0.5 * var(--mmbook-height)) );
+      transform: rotateX(90deg);
       background-color: blue;
     }
     .mmbook .face.tail {
