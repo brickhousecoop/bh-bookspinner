@@ -26,7 +26,8 @@
       height: 100%;
       position: relative;
       transform-style: preserve-3d;
-      animation: revolve 3s linear infinite;
+      /*transform-origin: 50% 50% calc(-0.5 * var(--mmbook-thickness));*/
+      animation: revolve 10s linear infinite;
     }
 
     .mmbook .face {
@@ -41,38 +42,38 @@
     .mmbook .face.front {
       width: var(--mmbook-width);
       height: var(--mmbook-height);
-      transform: rotateY(0deg) translateZ( calc(0.5 * var(--mmbook-thickness)) );
+      transform: rotateY( 0 ) translateZ( 0 );
       background-color: red;
     }
     .mmbook .face.foreedge {
       width: var(--mmbook-thickness);
       height: var(--mmbook-height);
-      transform: rotateY(90deg) translateX(-50%) translateZ( calc( var(--mmbook-width)) );
-      background-color: blue;
+      transform: rotateY(90deg) translateZ( var(--mmbook-width) );
+      background-color: green;
     }
     .mmbook .face.back {
       transform-origin: 50% 50%; /* eliminates need for translateX(100%) */
       width: var(--mmbook-width);
       height: var(--mmbook-height);
-      transform: rotateY(180deg) translateZ( calc(0.5 * var(--mmbook-thickness)) );
+      transform: rotateY(180deg) translateZ( var(--mmbook-thickness) );
       background-color: red;
     }
     .mmbook .face.spine {
       width: var(--mmbook-thickness);
       height: var(--mmbook-height);
-      transform: rotateY(270deg) translateZ( calc(-0.5 * var(--mmbook-width)) );
+      transform: rotateY(-90deg) translateX(-100%) translateZ( 0 );
       background-color: blue;
     }
     .mmbook .face.head {
       width: var(--mmbook-width);
       height: var(--mmbook-thickness);
-      transform: rotateX(90deg);
+      transform: rotateX(90deg) translateY(-100%);
       background-color: blue;
     }
     .mmbook .face.tail {
       width: var(--mmbook-width);
       height: var(--mmbook-thickness);
-      transform: rotateX(-90deg) translateZ( calc(0.5 * var(--mmbook-height)) );
+      transform: rotateX(-90deg) translateZ( var(--mmbook-height) );
       background-color: blue;
     }
 
@@ -81,7 +82,7 @@
         transform: rotateY(0);
       }
       to {
-        transform: rotateY(359.99999deg);
+        transform: rotateY(360deg);
       }
     }
 
