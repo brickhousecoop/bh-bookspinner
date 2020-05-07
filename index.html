@@ -5,9 +5,9 @@
   <style>
 
     :root {
-      --mmbook-width: 6in;
-      --mmbook-height: 9in;
-      --mmbook-thickness: 1.25in;
+      --mmbook-height: 70vh; /* 9in, reference */
+      --mmbook-width: calc(var(--mmbook-height) * 0.66666667); /* 6in = 6/9 × reference */
+      --mmbook-thickness: calc(var(--mmbook-height) * 0.137888889); /* 1.241in = 1.241/9 × reference */
     }
 
     body {
