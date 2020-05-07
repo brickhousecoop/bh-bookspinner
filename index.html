@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MM 2020 Catalog</title>
+  <style>
+
+    :root {
+      --mmbook-width: 6in;
+      --mmbook-height: 9in;
+      --mmbook-thickness: 1.25in;
+    }
+
+    figure {
+      margin: 0;
+      padding: 0;
+    }
+
+    .mmbook.scene {
+      width: var(--mmbook-width);
+      height: var(--mmbook-height);
+      perspective: 12in;
+    }
+
+    .mmbook .case {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      animation: revolve 3s linear infinite;
+    }
+
+    .mmbook .face {
+      position: absolute;
+    }
+
+    .mmbook .face.front {
+      width: var(--mmbook-width);
+      height: var(--mmbook-height);
+      transform: rotateY(0deg) translateZ( calc(0.5 * var(--mmbook-thickness)) );
+      background-color: red;
+    }
+    .mmbook .face.foreedge {
+      width: var(--mmbook-thickness);
+      height: var(--mmbook-height);
+      transform: rotateY(90deg) translateZ( calc(0.5 * var(--mmbook-width)) );
+      background-color: blue;
+    }
+    .mmbook .face.back {
+      width: var(--mmbook-width);
+      height: var(--mmbook-height);
+      transform: rotateY(180deg) translateZ( calc(0.5 * var(--mmbook-thickness)) );
+      background-color: red;
+    }
+    .mmbook .face.spine {
+      width: var(--mmbook-thickness);
+      height: var(--mmbook-height);
+      transform: rotateY(270deg) translateZ( calc(-0.5 * var(--mmbook-width)) );
+      background-color: blue;
+    }
+    .mmbook .face.head {
+      width: var(--mmbook-width);
+      height: var(--mmbook-thickness);
+      transform: rotateX(90deg) translateZ( calc(0.5 * var(--mmbook-height)) );
+      background-color: blue;
+    }
+    .mmbook .face.tail {
+      width: var(--mmbook-width);
+      height: var(--mmbook-thickness);
+      transform: rotateX(-90deg) translateZ( calc(0.5 * var(--mmbook-height)) );
+      background-color: blue;
+    }
+
+    @keyframes revolve {
+      from {
+        transform: rotateY(0);
+      }
+      to {
+        transform: rotateY(359.99999deg);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="mmbook scene">
+    <div class="case">
+      <figure class="face front"></figure>
+      <figure class="face foreedge"></figure>
+      <figure class="face back"></figure>
+      <figure class="face spine"></figure>
+      <figure class="face head"></figure>
+      <figure class="face tail"></figure>
+    </div>
+  </div>
+</body>
+</html>
