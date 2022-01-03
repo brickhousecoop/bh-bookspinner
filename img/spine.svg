@@ -1,36 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 372 2700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+<svg width="100%" height="100%" viewBox="0 0 263 2700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(1,0,0,1,-1800,0)">
-        <g transform="matrix(4.16667,0,0,4.16667,0,0)">
-            <text x="465.256px" y="594.856px" style="font-family:'HelveticaNeue-Light', 'Helvetica Neue';font-weight:300;font-size:10px;fill:rgb(237,33,36);">2<tspan x="471.016px 476.776px 482.536px " y="594.856px 594.856px 594.856px ">020</tspan></text>
+        <g id="Cover-Wrap" serif:id="Cover Wrap" transform="matrix(2.14606,0,0,1,-17237.9,0)">
+            <rect x="8032.33" y="0" width="1800" height="2700" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="8032.33" y="0" width="1800" height="2700"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(0.978639,0,0,1,-2252.58,0)">
+                    <rect x="10491.6" y="-37.5" width="1875" height="2775" style="fill:#fae985;"/>
+                </g>
+                <g transform="matrix(-0.0360517,-0.288745,0.18182,-0.104553,9010.36,1074.59)">
+                    <rect x="-37.5" y="-37.5" width="1875" height="2775" style="fill:#f64528;"/>
+                </g>
+                <g id="Names">
+                </g>
+            </g>
         </g>
-        <g transform="matrix(0,4.16667,-4.16667,0,0,0)">
-            <text x="202.146px" y="-464.801px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:34px;fill:rgb(237,33,36);">M<tspan x="233.324px 264.502px 290.036px 312.442px 334.814px 360.348px 391.526px " y="-464.801px -464.801px -464.801px -464.801px -464.801px -464.801px -464.801px ">MUSEUMM</tspan></text>
-        </g>
-        <g transform="matrix(4.16667,0,0,4.16667,1952.69,262.554)">
-            <path d="M0,7.602L-2.417,-2.837L-6.453,-2.837L-6.453,10.439L-3.868,10.439L-3.868,1.459C-3.868,1.201 -3.871,0.839 -3.877,0.374C-3.883,-0.091 -3.886,-0.45 -3.886,-0.702L-1.389,10.439L1.308,10.439L3.823,-0.702C3.823,-0.45 3.82,-0.091 3.814,0.374C3.808,0.839 3.805,1.201 3.805,1.459L3.805,10.439L6.39,10.439L6.39,-2.837L2.399,-2.837L0,7.602ZM15.366,7.602L12.949,-2.837L8.912,-2.837L8.912,10.439L11.497,10.439L11.497,1.459C11.497,1.201 11.494,0.839 11.488,0.374C11.482,-0.091 11.479,-0.45 11.479,-0.702L13.977,10.439L16.673,10.439L19.189,-0.702C19.189,-0.45 19.186,-0.091 19.18,0.374C19.174,0.839 19.171,1.201 19.171,1.459L19.171,10.439L21.756,10.439L21.756,-2.837L17.764,-2.837L15.366,7.602Z" style="fill:rgb(237,33,36);fill-rule:nonzero;"/>
-        </g>
-        <g transform="matrix(4.16667,0,0,4.16667,1948.3,226.294)">
-            <path d="M0,-4.801L-8.678,0L-3.897,0L1.687,-3.134L15.669,-3.134L21.254,0L26.035,0L17.356,-4.801L0,-4.801Z" style="fill:rgb(237,33,36);fill-rule:nonzero;"/>
-        </g>
-        <g transform="matrix(4.16667,0,0,4.16667,1948.28,203.568)">
-            <path d="M0,-4.871L-8.678,0L-4.67,0L0.889,-3.255L16.471,-3.255L22.03,0L26.038,0L17.359,-4.871L0,-4.871Z" style="fill:rgb(237,33,36);fill-rule:nonzero;"/>
-        </g>
-        <g transform="matrix(4.16667,0,0,4.16667,1948.28,183.269)">
-            <path d="M0,-4.492L-8.678,0L-5.575,0L0.731,-3.254L16.628,-3.254L22.934,0L26.038,0L17.359,-4.492L0,-4.492Z" style="fill:rgb(237,33,36);fill-rule:nonzero;"/>
-        </g>
-        <g transform="matrix(4.16667,0,0,4.16667,1948.28,164.845)">
-            <path d="M0,-3.834L-8.678,0L-5.946,0L0.731,-2.96L16.628,-2.96L23.305,0L26.038,0L17.359,-3.834L0,-3.834Z" style="fill:rgb(237,33,36);fill-rule:nonzero;"/>
-        </g>
-        <g transform="matrix(4.16667,0,0,4.16667,1948.28,149.445)">
-            <path d="M0,-3.242L-8.678,0L-6.609,0L0.731,-2.74L16.628,-2.74L23.969,0L26.038,0L17.359,-3.242L0,-3.242Z" style="fill:rgb(237,33,36);fill-rule:nonzero;"/>
-        </g>
-        <g transform="matrix(4.16667,0,0,4.16667,-75,2700)">
-            <path d="M0,-648L-15,-648M989.352,-648L1004.35,-648M0,0L-15,0M989.352,0L1004.35,0M18,-666L18,-681M18,18L18,33M971.352,-666L971.352,-681M971.352,18L971.352,33" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2.5px;"/>
-        </g>
-        <g transform="matrix(4.16667,0,0,4.16667,-75,2700)">
-            <path d="M0,-648L-15,-648M989.352,-648L1004.35,-648M0,0L-15,0M989.352,0L1004.35,0M18,-666L18,-681M18,18L18,33M971.352,-666L971.352,-681M971.352,18L971.352,33" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.5px;"/>
+        <g id="Names1" serif:id="Names">
         </g>
     </g>
 </svg>
