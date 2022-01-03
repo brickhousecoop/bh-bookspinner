@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "render": "node record.js"
+  },
+  "dependencies": {
+    "http-server": "^14.0.0",
+    "puppeteer-screen-recorder": "^2.0.2"
+  }
+}
