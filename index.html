@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MM 2020 Catalog</title>
+  <title>BH Apparently Quarterly (Vol. 1)</title>
   <style>
 
     :root {
-      --mmbook-height: 70vh; /* 9in, reference */
-      --mmbook-width: calc(var(--mmbook-height) * 0.66666667); /* 6in = 6/9 × reference */
-      --mmbook-thickness: calc(var(--mmbook-height) * 0.137888889); /* 1.241in = 1.241/9 × reference */
+      --bhbook-height: 70vh; /* 9in, reference */
+      --bhbook-width: calc(var(--bhbook-height) * 0.66666667); /* 6in = 6/9 × reference */
+      --bhbook-thickness: calc(var(--bhbook-height) * 0.137888889); /* 1.241in = 1.241/9 × reference */
     }
 
     body {
@@ -25,23 +25,23 @@
       padding: 0;
     }
 
-    .mmbook.scene {
-      width: var(--mmbook-width);
-      height: var(--mmbook-height);
+    .bhbook.scene {
+      width: var(--bhbook-width);
+      height: var(--bhbook-height);
       perspective: 24in;
       /*border: 4px solid black;*/
     }
 
-    .mmbook .case {
+    .bhbook .case {
       width: 100%;
       height: 100%;
       position: relative;
       transform-style: preserve-3d;
-      transform-origin: 50% 50% calc(-0.5 * var(--mmbook-thickness));
+      transform-origin: 50% 50% calc(-0.5 * var(--bhbook-thickness));
       animation: revolve 10s linear infinite;
     }
 
-    .mmbook .face {
+    .bhbook .face {
       background-color: #f3f3f3;
       position: absolute;
       transform-origin: 0 0;
@@ -53,43 +53,43 @@
       text-align: center;
     }
 
-    .mmbook .face.front {
+    .bhbook .face.front {
       background-image: url(img/front.svg);
-      width: var(--mmbook-width);
-      height: var(--mmbook-height);
+      width: var(--bhbook-width);
+      height: var(--bhbook-height);
       transform: rotateY( 0 ) translateZ( 0 );
     }
-    .mmbook .face.foreedge {
+    .bhbook .face.foreedge {
       background-image: url(img/foreedge.jpg);
-      width: var(--mmbook-thickness);
-      height: var(--mmbook-height);
-      transform: rotateY(90deg) translateZ( var(--mmbook-width) );
+      width: var(--bhbook-thickness);
+      height: var(--bhbook-height);
+      transform: rotateY(90deg) translateZ( var(--bhbook-width) );
     }
-    .mmbook .face.back {
+    .bhbook .face.back {
       background-image: url(img/back.svg);
       transform-origin: 50% 50%; /* eliminates need for translateX(100%) */
-      width: var(--mmbook-width);
-      height: var(--mmbook-height);
-      transform: rotateY(180deg) translateZ( var(--mmbook-thickness) );
+      width: var(--bhbook-width);
+      height: var(--bhbook-height);
+      transform: rotateY(180deg) translateZ( var(--bhbook-thickness) );
     }
-    .mmbook .face.spine {
+    .bhbook .face.spine {
       background-image: url(img/spine.svg);
-      width: var(--mmbook-thickness);
-      height: var(--mmbook-height);
+      width: var(--bhbook-thickness);
+      height: var(--bhbook-height);
       transform: rotateY(-90deg) translateX(-100%) translateZ( 0 );
     }
-    .mmbook .face.head {
+    .bhbook .face.head {
       background-image: url(img/foreedge.jpg);
       background-position-x: 100%;
-      width: var(--mmbook-thickness);
-      height: var(--mmbook-width);
+      width: var(--bhbook-thickness);
+      height: var(--bhbook-width);
       transform: rotateX(-90deg) rotateZ(90deg) translateY(-100%);
     }
-    .mmbook .face.tail {
+    .bhbook .face.tail {
       background-image: url(img/foreedge.jpg);
-      width: var(--mmbook-thickness);
-      height: var(--mmbook-width);
-      transform: rotateX(-90deg) rotateZ(90deg) translateY(-100%) translateZ( var(--mmbook-height) );
+      width: var(--bhbook-thickness);
+      height: var(--bhbook-width);
+      transform: rotateX(-90deg) rotateZ(90deg) translateY(-100%) translateZ( var(--bhbook-height) );
     }
 
     @keyframes revolve {
@@ -104,7 +104,7 @@
   </style>
 </head>
 <body>
-  <div class="mmbook scene">
+  <div class="bhbook scene">
     <div class="case">
       <figure class="face front"></figure>
       <figure class="face foreedge"></figure>
