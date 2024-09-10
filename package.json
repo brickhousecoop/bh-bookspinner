@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "render": "node record.js"
+    "render": "node record.js",
+    "build": "echo 'noop'"
   },
   "dependencies": {
     "http-server": "^14.0.0",
